@@ -1,0 +1,9 @@
+#for virtual environment we have this command to know
+python -m venv name_venv
+cd name_venv\scripts\activate
+now use pip for install package with freeze we can see it.
+pip freeze > requirments.text
+pip install -r requirment.txt
+--------------------------------------------
+#for create a project
+django-admin startproject project_name .
